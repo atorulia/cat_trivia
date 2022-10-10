@@ -1,16 +1,7 @@
-# cat_trivia
+# Cat trivia
 
-A new Flutter project.
+Flutter Developer | Test Assignment (ProArea)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Preview  | Error state |
+| ------------- | ------------- |
+| ![Preview](https://user-images.githubusercontent.com/33317367/194850611-f4e449dd-0633-4943-8eb8-b7e5697bcd5b.mov) | ![ErrorState](https://user-images.githubusercontent.com/33317367/194850707-3956ee67-d015-4c54-a712-cb8269183ab6.mov)  |
