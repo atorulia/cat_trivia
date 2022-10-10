@@ -13,7 +13,7 @@ class PictureRepository {
     if (pictures.isEmpty) {
       return pictures.first;
     } else {
-      throw Exception('No pictures found');
+      return Future.error(Exception('No pictures found'));
     }
   }
 }

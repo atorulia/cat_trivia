@@ -30,7 +30,9 @@ class CatPicture extends StatelessWidget {
                   value: progress.progress,
                 ),
               ),
-              errorWidget: (context, url, error) => Subtitle1Text(error),
+              errorWidget: (context, url, error) => Subtitle1Text(
+                error.toString(),
+              ),
             ),
           ),
         ),
