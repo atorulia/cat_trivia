@@ -27,7 +27,7 @@ class _SplashViewState extends State<SplashView> {
         setState(() {
           _animate = true;
         });
-        Future.delayed(const Duration(milliseconds: 500), () {
+        Future.delayed(const Duration(milliseconds: 1000), () {
           Navigator.of(context).pushReplacement(_buildRoute(const HomePage()));
         });
       });
@@ -43,7 +43,7 @@ class _SplashViewState extends State<SplashView> {
   Route _buildRoute(Widget child) {
     return PageRouteBuilder(
       pageBuilder: (context, animation, secondaryAnimation) => child,
-      transitionDuration: const Duration(milliseconds: 300),
+      transitionDuration: const Duration(milliseconds: 600),
       transitionsBuilder: (context, animation, secondaryAnimation, child) {
         return FadeTransition(
           opacity: Tween(

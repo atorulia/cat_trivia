@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 /// Colors used in the app
 class ComponentColors {
   static const primaryColor = _CustomColors.sun;
+  static const secondaryColor = _CustomColors.mercury;
   static const backgroundColor = _CustomColors.white;
   static const titleTextColor = _CustomColors.black;
   static const subtitleTextColor = _CustomColors.bigStone;
   static const bodyTextColor = _CustomColors.ebony;
+  static const buttonTextColor = _CustomColors.ebony;
 }
 
 /// Colors get from https://chir.ag/projects/name-that-color/#6195ED

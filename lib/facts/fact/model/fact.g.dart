@@ -8,10 +8,12 @@ part of 'fact.dart';
 
 Fact _$FactFromJson(Map<String, dynamic> json) => Fact(
       fact: json['fact'] as String,
+      creationDate: DateTime.parse(json['creationDate'] as String),
       length: json['length'] as int?,
     );
 
 Map<String, dynamic> _$FactToJson(Fact instance) => <String, dynamic>{
       'fact': instance.fact,
+      'creationDate': instance.creationDate.toIso8601String(),
       'length': instance.length,
     };
