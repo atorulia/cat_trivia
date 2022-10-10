@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 class ComponentColors {
   static const primaryColor = _CustomColors.sun;
   static const backgroundColor = _CustomColors.white;
+  static const titleTextColor = _CustomColors.black;
 }
 
 /// Colors get from https://chir.ag/projects/name-that-color/#6195ED
