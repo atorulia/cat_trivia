@@ -1,5 +1,5 @@
-import 'package:cat_trivia/facts/picture/client/picture_client.dart';
-import 'package:cat_trivia/facts/picture/model/picture.dart';
+import 'package:cat_trivia/pictures/client/picture_client.dart';
+import 'package:cat_trivia/pictures/model/picture.dart';
 
 class PictureRepository {
   PictureRepository({required PictureClient pictureClient})

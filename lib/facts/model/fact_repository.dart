@@ -1,5 +1,5 @@
-import 'package:cat_trivia/facts/fact/client/fact_client.dart';
-import 'package:cat_trivia/facts/fact/model/fact.dart';
+import 'package:cat_trivia/facts/client/fact_client.dart';
+import 'package:cat_trivia/facts/model/fact.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class FactRepository {

@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cat_trivia/app/view/colors.dart';
 import 'package:cat_trivia/components/texts/subtitle1_text.dart';
-import 'package:cat_trivia/facts/picture/model/picture.dart';
+import 'package:cat_trivia/pictures/model/picture.dart';
 import 'package:flutter/material.dart';
 
 class CatPicture extends StatelessWidget {

@@ -1,8 +1,8 @@
 import 'package:cat_trivia/app/view/theme.dart';
-import 'package:cat_trivia/facts/fact/model/fact_repository.dart';
-import 'package:cat_trivia/facts/picture/model/picture_repository.dart';
+import 'package:cat_trivia/facts/model/fact_repository.dart';
 import 'package:cat_trivia/history/cubit/history_cubit.dart';
 import 'package:cat_trivia/home/cubit/cat_fact_cubit.dart';
+import 'package:cat_trivia/pictures/model/picture_repository.dart';
 import 'package:cat_trivia/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

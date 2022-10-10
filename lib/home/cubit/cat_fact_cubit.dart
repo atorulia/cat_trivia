@@ -1,7 +1,7 @@
-import 'package:cat_trivia/facts/fact/model/fact.dart';
-import 'package:cat_trivia/facts/fact/model/fact_repository.dart';
-import 'package:cat_trivia/facts/picture/model/picture.dart';
-import 'package:cat_trivia/facts/picture/model/picture_repository.dart';
+import 'package:cat_trivia/facts/model/fact.dart';
+import 'package:cat_trivia/facts/model/fact_repository.dart';
+import 'package:cat_trivia/pictures/model/picture.dart';
+import 'package:cat_trivia/pictures/model/picture_repository.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -9,10 +9,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 part 'cat_fact_state.dart';
 
 class CatFactCubit extends Cubit<CatFactState> {
-  CatFactCubit(
-      {required PictureRepository pictureRepository,
-      required FactRepository factRepository})
-      : _pictureRepository = pictureRepository,
+  CatFactCubit({
+    required PictureRepository pictureRepository,
+    required FactRepository factRepository,
+  })  : _pictureRepository = pictureRepository,
         _factRepository = factRepository,
         super(CatFactInitial());
 

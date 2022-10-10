@@ -1,6 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:cat_trivia/facts/fact/model/fact.dart';
-import 'package:cat_trivia/facts/fact/model/fact_repository.dart';
+import 'package:cat_trivia/facts/model/fact.dart';
+import 'package:cat_trivia/facts/model/fact_repository.dart';
+
 import 'package:equatable/equatable.dart';
 
 part 'history_state.dart';

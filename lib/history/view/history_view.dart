@@ -1,7 +1,7 @@
 import 'package:cat_trivia/app/view/assets.dart';
 import 'package:cat_trivia/components/animations/bad_cat_animation.dart';
 import 'package:cat_trivia/components/texts/subtitle1_text.dart';
-import 'package:cat_trivia/facts/fact/model/fact.dart';
+import 'package:cat_trivia/facts/model/fact.dart';
 import 'package:cat_trivia/history/cubit/history_cubit.dart';
 import 'package:cat_trivia/history/view/components/history_list_view.dart';
 import 'package:flutter/material.dart';

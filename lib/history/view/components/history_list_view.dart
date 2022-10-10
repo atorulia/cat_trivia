@@ -1,4 +1,4 @@
-import 'package:cat_trivia/facts/fact/model/fact.dart';
+import 'package:cat_trivia/facts/model/fact.dart';
 import 'package:cat_trivia/history/view/components/history_card.dart';
 import 'package:flutter/material.dart';
 

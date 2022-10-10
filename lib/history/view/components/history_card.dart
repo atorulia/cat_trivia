@@ -1,7 +1,7 @@
 import 'package:cat_trivia/app/view/colors.dart';
 import 'package:cat_trivia/components/texts/body1_text.dart';
 import 'package:cat_trivia/components/texts/body2_text.dart';
-import 'package:cat_trivia/facts/fact/model/fact.dart';
+import 'package:cat_trivia/facts/model/fact.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
