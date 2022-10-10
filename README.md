@@ -2,6 +2,8 @@
 
 Flutter Developer | Test Assignment (ProArea)
 
-| Preview  | Error state |
-| ------------- | ------------- |
-| ![Preview](https://user-images.githubusercontent.com/33317367/194850611-f4e449dd-0633-4943-8eb8-b7e5697bcd5b.mov) | ![ErrorState](https://user-images.githubusercontent.com/33317367/194850707-3956ee67-d015-4c54-a712-cb8269183ab6.mov)  |
+https://user-images.githubusercontent.com/33317367/194852241-f80eef0c-0d61-4a1c-acbe-8dc01dd6e21a.mov
+
+
+https://user-images.githubusercontent.com/33317367/194852259-a8c7d1a0-e806-452d-84f1-243c055c0166.mov
+
