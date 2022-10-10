@@ -1,4 +1,5 @@
 import 'package:cat_trivia/app/view/theme.dart';
+import 'package:cat_trivia/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -17,6 +18,7 @@ class AppView extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: lightTheme,
+      home: const SplashPage(),
     );
   }
 }
