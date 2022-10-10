@@ -14,10 +14,11 @@ But for now that API's is't awiable, so i'm using following:
 
 **App preview**
 
-https://user-images.githubusercontent.com/33317367/194852241-f80eef0c-0d61-4a1c-acbe-8dc01dd6e21a.mov
+https://user-images.githubusercontent.com/33317367/194858273-75ca5650-06fb-4614-8f68-379b6c21d7e5.mov
 
 **App error view**
 
-https://user-images.githubusercontent.com/33317367/194852711-f86a3e15-53a2-455f-9798-462996ab553c.mov
+https://user-images.githubusercontent.com/33317367/194858314-6296085c-d749-4a73-90b8-8d76bd4201a1.mov
+
 
 
