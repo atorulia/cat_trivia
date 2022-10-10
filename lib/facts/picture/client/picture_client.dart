@@ -1,4 +1,4 @@
-import 'package:cat_trivia/app/facts/picture/model/picture.dart';
+import 'package:cat_trivia/facts/picture/model/picture.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

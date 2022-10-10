@@ -5,6 +5,8 @@ class ComponentColors {
   static const primaryColor = _CustomColors.sun;
   static const backgroundColor = _CustomColors.white;
   static const titleTextColor = _CustomColors.black;
+  static const subtitleTextColor = _CustomColors.bigStone;
+  static const bodyTextColor = _CustomColors.ebony;
 }
 
 /// Colors get from https://chir.ag/projects/name-that-color/#6195ED
