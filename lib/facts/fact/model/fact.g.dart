@@ -17,7 +17,7 @@ class FactAdapter extends TypeAdapter<Fact> {
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return Fact(
-      fact: fields[0] as String,
+      data: fields[0] as String,
       creationDate: fields[1] as DateTime,
       length: fields[2] as int?,
     );
@@ -28,7 +28,7 @@ class FactAdapter extends TypeAdapter<Fact> {
     writer
       ..writeByte(3)
       ..writeByte(0)
-      ..write(obj.fact)
+      ..write(obj.data)
       ..writeByte(1)
       ..write(obj.creationDate)
       ..writeByte(2)
@@ -51,13 +51,13 @@ class FactAdapter extends TypeAdapter<Fact> {
 // **************************************************************************
 
 Fact _$FactFromJson(Map<String, dynamic> json) => Fact(
-      fact: json['fact'] as String,
+      data: json['fact'] as String,
       creationDate: DateTime.parse(json['creationDate'] as String),
       length: json['length'] as int?,
     );
 
 Map<String, dynamic> _$FactToJson(Fact instance) => <String, dynamic>{
-      'fact': instance.fact,
+      'fact': instance.data,
       'creationDate': instance.creationDate.toIso8601String(),
       'length': instance.length,
     };

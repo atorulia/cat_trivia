@@ -13,6 +13,7 @@ class HistoryListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.separated(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
       itemCount: facts.length,
       separatorBuilder: (BuildContext context, int index) {
         return const SizedBox(

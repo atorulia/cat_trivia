@@ -67,7 +67,7 @@ class HomeView extends StatelessWidget {
           CatPicture(picture: picture),
           const SizedBox(height: 16),
           Body1Text(
-            fact.fact,
+            fact.data,
             textAlign: TextAlign.center,
           ),
         ],

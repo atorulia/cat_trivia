@@ -20,7 +20,7 @@ class HistoryCard extends StatelessWidget {
       ),
       child: Column(
         children: [
-          Body1Text(fact.fact),
+          Body1Text(fact.data),
           const SizedBox(
             height: 8,
           ),

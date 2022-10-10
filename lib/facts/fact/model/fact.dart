@@ -8,14 +8,15 @@ part 'fact.g.dart';
 @JsonSerializable()
 @HiveType(typeId: 0)
 class Fact extends Equatable {
+  @JsonKey(name: 'fact')
   @HiveField(0)
-  final String fact;
+  final String data;
   @HiveField(1)
   final DateTime creationDate;
   @HiveField(2)
   final int? length;
 
-  const Fact({required this.fact, required this.creationDate, this.length});
+  const Fact({required this.data, required this.creationDate, this.length});
 
   /// Connect the generated [_$FactFromJson] function to the `fromJson`
   /// factory.
@@ -31,5 +32,5 @@ class Fact extends Equatable {
   Map<String, dynamic> toJson() => _$FactToJson(this);
 
   @override
-  List<Object?> get props => [fact, length];
+  List<Object?> get props => [data, length, creationDate];
 }
