@@ -1,6 +1,7 @@
 import 'package:cat_trivia/app/view/theme.dart';
 import 'package:cat_trivia/facts/fact/model/fact_repository.dart';
 import 'package:cat_trivia/facts/picture/model/picture_repository.dart';
+import 'package:cat_trivia/history/cubit/history_cubit.dart';
 import 'package:cat_trivia/home/cubit/cat_fact_cubit.dart';
 import 'package:cat_trivia/splash/splash_page.dart';
 import 'package:flutter/material.dart';
@@ -28,6 +29,11 @@ class App extends StatelessWidget {
             factRepository: _factRepository,
           ),
         ),
+        BlocProvider<HistoryCubit>(
+          create: (context) => HistoryCubit(
+            factRepository: _factRepository,
+          ),
+        ),
       ],
       child: const AppView(),
     );
@@ -42,6 +48,7 @@ class AppView extends StatelessWidget {
     return MaterialApp(
       theme: lightTheme,
       home: const SplashPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

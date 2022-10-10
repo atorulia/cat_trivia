@@ -4,4 +4,5 @@ class Assets {
       'assets/animations/loading_cat.json';
   static const String splashCatAnimation = 'assets/animations/splash_cat.json';
   static const String badCatAnimation = 'assets/animations/bad_cat.json';
+  static const String chevronLeftIcon = 'assets/icons/chevron_left.svg';
 }
