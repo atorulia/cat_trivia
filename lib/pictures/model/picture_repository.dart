@@ -10,6 +10,10 @@ class PictureRepository {
   Future<Picture> getPicture() async {
     final pictures = await _pictureClient.getPictures();
 
-    return pictures.first;
+    if (pictures.isEmpty) {
+      return pictures.first;
+    } else {
+      throw Exception('No pictures found');
+    }
   }
 }
